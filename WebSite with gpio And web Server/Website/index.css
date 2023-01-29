@@ -1,0 +1,148 @@
+.dummy{
+	visibility 			:hidden;
+}
+.button {
+    background-color	: #f44336; 
+	width 				: 8vw;
+	height 				: 8vw;
+    padding				: 1% 2%;
+    color				: white; 
+    border				: 2px solid #f44336;
+	border-radius		: 50%;
+    cursor				: pointer;
+	transition-duration	: 0.4s;
+    float				: center;
+	margin			: 1.3%;
+}
+.button:hover {
+    background-color	: #de3428;
+    color				: white;
+}
+.button_group0 {
+	width 				: 5vw;
+	height 				: 3vw;
+	background			:url(./images/coba.png);
+    *background-color	: #e7e7e7; 
+	border				: 2px solid #e7e7e7;
+    color				: black;
+    text-align			: center;
+    text-decoration		: none;
+    *display				: inline-block;
+    font-size			: 80% Tohama;
+	*transition-duration	: 0.4s;
+    cursor				: pointer;
+    float				: center;
+}
+.button_group0:hover {
+    border				: 2px solid #e7e7e7;
+    *background-color	: white;
+	color				: black;
+}
+.button_group1 {
+	width 				: 25%;
+	height 				: 80%;
+    background-color	: #4CAF50;
+	color				: white;
+    border				: 2px solid #4CAF50;
+    padding				: 2% 3%;
+    text-align			: center;
+    text-decoration		: none;
+    display				: inline-block;
+    font-size			: 80% Tohama;
+	transition-duration	: 0.4s;
+    cursor				: pointer;
+    float				: center;
+	margin-bottom 		: 0.8%;
+}
+.button_group1:hover {
+    background-color	: white; 
+    color				: black;
+}
+.button_group2 {
+	width 				: 25%;
+	height 				: 80%;
+    background-color	: #008CBA;
+	color				: white;
+    border				: 2px solid #008CBA;
+    padding				: 2% 3%;
+    text-align			: center;
+    text-decoration		: none;
+    display				: inline-block;
+    font-size			: 80% Tohama Auto;
+	transition-duration	: 0.4s;
+    cursor				: pointer;
+    float				: center;
+}
+.button_group2:hover {
+    background-color	: white; 
+    color				: black;
+}
+*{
+	margin 	:0px;
+	padding :0px;
+}
+h1{
+	font :bold 150% Tahoma;
+}
+h2{
+	font :bold 100% Tahoma;
+}
+h3{
+	font :80% Tahoma;
+}
+body{
+	text-align 	:center;
+}
+input[type=submit] {
+	*width 				:25%;
+	*height 			:18.5%;
+	display 			:inline;
+	*margin-bottom 		:0.8%;
+}
+img{
+	border 				:1px solid black;
+	padding 			:1%;
+	margin 				:1% auto;
+	width 				:90%;
+	height 				:width/0.75;
+	max-height 			:100%;
+}
+#big_wrapper{
+	border 				:1px solid black;
+	width 				:70%;
+	height 				:100%;
+	margin 				:3% auto;
+}
+#content_wrapper{
+	margin-top			:0%;
+}
+#top_header{
+	background 			:yellow;
+	border 				:1px solid blue;
+	padding 			:5%;
+	text-align 			:center;
+}
+#button_input{
+	*border 			:1px solid black;
+	float 				:left;
+	padding 			:1%;
+	margin 				:1% auto;
+	width 				:47%;
+	*height 			:350px;
+	text-align 			:center;
+}
+#camera{
+	float 				:right;
+	*border 			:1px solid black;
+	padding 			:1%;
+	margin 				:1% auto;
+	width 				:47%;
+	*height 			:200px;
+	text-align 			:center;
+
+}
+#bottom_footer{
+	text-align 			:right;
+	clear 				:both;
+	padding 			:2%;
+}
